@@ -1,0 +1,12 @@
+Deep learning sentences to get a vector representation of a sentence
+With a vector representation of a sentence, using markov models to model paragraphs, chapters, etc
+Could also do some sort of clustering of sentences using features i make up
+
+For sentences themselves, could do some sort of markov model to get probability of next word then get posterior
+prob of whole sentence
+Words can have 4 forms: the word itself, the lexed form, the category of the word (on multiple
+levels of specificity), and also the vector representation of the word
+
+What if i modeled who paragraphs using markov models, where sentence breaks are just another symbol
+for the markov models, i need to increase history by a bit, cause markov assumption not interesting
+or valid
