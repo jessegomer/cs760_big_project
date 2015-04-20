@@ -10,3 +10,9 @@ levels of specificity), and also the vector representation of the word
 What if i modeled who paragraphs using markov models, where sentence breaks are just another symbol
 for the markov models, i need to increase history by a bit, cause markov assumption not interesting
 or valid
+
+make graph of sentence lenght
+
+make 3 groups on sentences
+
+do hmm with hidden states: start new clause, continue clause, end clause
